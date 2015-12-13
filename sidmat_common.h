@@ -246,7 +246,7 @@ do {\
 
 		if (print_addr) {
 			if (data->debug) {
-				fprintf(stderr, "# %s\n", debug_name);
+				fprintf(stdout, "# %s\n", debug_name);
 			}
 			printf("%d.%d.%d.%d", *(rptr + 0), *(rptr + 1), *(rptr + 2), *(rptr + 3));
 			if (data->info) {
